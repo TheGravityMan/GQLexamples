@@ -3,7 +3,7 @@
 The following tutorial will guide you through the process of claiming a Device and creating a new Asset using the ExoSense GraphQL API. Understanding of the API will enable you to take advantage of more advanced features in ExoSense, such as creating your own custom application to automate the Device claiming/Asset creation process as new Devices come online.
 This guide is designed to be a simple example of a more general, higher level use case. To inquire about how to apply this information to a more specific Solution for your own needs, or have any other questions in regards to this walkthrough, please open a support ticket by emailing support@exosite.com.
 
-This guide will Assume that you have the following pieces of information available:
+This guide will assume that you have the following pieces of information available:
 
 
 |ExoSense Identifier |GraphQL Identifier|
@@ -201,7 +201,7 @@ query template2VersionYAML($id: ID!) {
 ```
 
 ### Map Channels from the Device to the Template
-Before creating the Asset, we need to define how the channel/s from your Device are mapped to the Signal/s that will be created. Focussing on the `signals` section contained within the Template Definition will provide the necessary Signal Linkage IDs (`{SignalLinkID}`).
+Before creating the Asset, we need to define how the channel/s from your Device are mapped to the Signal/s that will be created. Focusing on the `signals` section contained within the Template Definition will provide the necessary Signal Linkage IDs (`{SignalLinkID}`).
 
 ```
 template:
